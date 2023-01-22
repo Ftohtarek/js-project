@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 0, 0, .01);
+}
+h1{
+    font-size: 3rem;
+    font-weight:600 ;
+    color: rgba(0, 0, 0, 0.596); 
+}
+
+
+.form-control:focus{
+    box-shadow: none;
+    background-color: #fff;
+}
+.apper{
+    display: block ;
+}
+.disapper{
+    display: none ;
+}
+#addButton{
+ float: right;
+}
+.clear-fix{
+    clear: both;
+    
+}
+.row{
+    padding: 5px;
+}

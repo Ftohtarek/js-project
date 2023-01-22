@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ftoh</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section id="main" class="shadow-lg container my-5 p-5 rounded">
+        <header class="pb-4">
+            <h1 class="text-center">Bookmarker</h1>
+        </header>
+        <div class="container">
+            <form class="bg-page">
+                <!--  name input field -->
+                <div class="form-group">
+                    <input id="name" type="text" placeholder="Bookmark Name" class="form-control py-4" required>
+                    <div class="alert alert-danger d-none">Name is required</div>
+                </div>
+                <!--  url input field -->
+                <div class="form-group ">
+                    <input id="url" type="url" placeholder="https://ftohtarek.is-best.com" class="form-control py-4"
+                        required>
+                    <div class="alert alert-danger d-none">must Be url ex:https://example.com</div>
+                </div>
+                <div class="form-group ">
+                    <button id="addButton" type="button" class="btn btn-outline-primary w-25 " >add product</button>
+                    <div class="clear-fix"></div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <!-- result -->
+        <div id="result" class="container  py-3">
+            <a href="" ></a>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

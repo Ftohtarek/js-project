@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+}
+
+.img-container {
+    position: relative;
+}
+
+.caption {
+    font-size: 14px;
+    margin: 10px 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.caption h2 {
+    font-size: 18px !important;
+}
+
+#slider {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .4);
+    top: 100%;
+    left: 100%;
+    right: 100%;
+    bottom: 100%;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.open {
+    top:0 !important;
+    left:0 !important;
+    right:0 !important;
+    bottom:0 !important;
+}
+#slider-img {
+    height: 60%;
+    width: 50%;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url("../image/work-1.jpg");
+    background-size: 100% 100%;
+    transition: 2s;
+    transform: translateX(50%) translateY(40%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#close {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    transition: .5s;
+}
+
+#close:hover {
+    color: red;
+}
+
+#prev,
+#next {
+    transition: .5s;
+}
+
+#prev:hover,
+#next:hover {
+    color: blue;
+}
