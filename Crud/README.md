@@ -14,4 +14,4 @@
 - ``` search ```
   methelogy  
 ## demo
- [Crud](https://ftohtarek.github.io/CRUD)
+ [Crud](https://ftohtarek.github.io/js-project/Crud/)

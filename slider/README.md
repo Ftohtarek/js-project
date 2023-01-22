@@ -5,4 +5,4 @@ oop js slider project apply
 ``` native slider move ``` 
 ``` clean code  ```
 ## demo 
-[text](https://)
+[slider]([https://](https://ftohtarek.github.io/js-project/slider/))
